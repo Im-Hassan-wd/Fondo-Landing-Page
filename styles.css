@@ -10,6 +10,7 @@ header {
   background: linear-gradient(270deg, #99a9c8 8.56%, #6e85ad 64.4%);
   color: #fff;
   padding: 20px;
+  padding-bottom: 50px;
 }
 
 header a {
@@ -32,6 +33,10 @@ nav ul li {
   padding: 0 5px;
 }
 
+nav img {
+  filter: invert(1);
+}
+
 .container {
   max-width: 1100px;
   margin: 20px auto;
@@ -45,5 +50,28 @@ nav ul li {
 .header-content p {
   max-width: 370px;
   font-size: 15px;
-  margin: 10px 0;
+  margin: 20px 0;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-link .link {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  background: #13192e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px 0 0;
+  font-size: 13px;
+}
+
+.header-link .link2 {
+  background: none;
+  border: 1px solid #fff;
 }
