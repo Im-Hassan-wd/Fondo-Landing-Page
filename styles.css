@@ -1,6 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background: linear-gradient(270deg, #99a9c8 8.56%, #6e85ad 64.4%);
+  color: #fff;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 5px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.header-content h1 {
+  max-width: 250px;
+  margin: 10px 0;
+}
+
+.header-content p {
+  max-width: 370px;
+  font-size: 15px;
+  margin: 10px 0;
 }
